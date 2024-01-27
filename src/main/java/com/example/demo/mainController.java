@@ -37,4 +37,8 @@ public class mainController {
                 "</body>\n" +
                 "</html>";
     }
+    @GetMapping("/home")
+    public String main(){
+        return "helo";
+    }
 }
